@@ -4,7 +4,6 @@ import java.time.Period;
 public class Persona{ // Definición de la clase persona
     private LocalDate FechaNacimiento; // Atributo privado para almacenar la fecha de nacimiento de la persona  
     private String nombre;
-    private int edad;
     private String direccion;
 
     public static void main(String[]args){
@@ -55,10 +54,6 @@ public class Persona{ // Definición de la clase persona
         this.FechaNacimiento = FechaNacimiento;
     }
 
-    public void setEdad(int edad) { // Método para establecer la edad de la persona
-        this.edad = edad;
-    }
-    
     public void setDireccion(String direccion) { // Método para establecer la dirección de la persona
         this.direccion = direccion;
     }

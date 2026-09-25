@@ -8,11 +8,11 @@ de los primeros n-1; el argumento baja de n a n-1, acercándose al caso base. */
 // Caso base: sumar hasta 0 da 0. Caso recursivo: n + suma de los primeros
 // (n - 1)
 public class sumaHastaN {
-    public static int sumaHastaN(int n) {
+    public static int sumarHastaN(int n) {
         if (n <= 0) {
             return 0;
         }
-        return n + sumaHastaN(n - 1);
+        return n + sumarHastaN(n - 1);
     }
 }
 
